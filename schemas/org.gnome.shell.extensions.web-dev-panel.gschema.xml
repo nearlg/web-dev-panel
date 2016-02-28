@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extension-test">
+	<schema path="/org/gnome/shell/extensions/web-dev-panel/" id="org.gnome.shell.extensions.web-dev-panel">
+		<key name="web-server" type="s">
+			<default>'nginx'</default>
+			<summary>Web server service name</summary>
+			<description>Set the name of the web server service.</description>
+		</key>
+		<key name="data-base" type="s">
+			<default>'mysql'</default>
+			<summary>Data base service name</summary>
+			<description>Set the name of the data base service.</description>
+		</key>
+	</schema>
+</schemalist>
